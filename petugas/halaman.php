@@ -25,5 +25,5 @@ if(isset($_GET['url'])){
     }
 }else{
     echo "Selamat Datang di Aplikasi Pelaporan Pengaduan Masyarakat, Dimana Aplikasi ini dibuat untuk melaporkan tindakan yang menyimpnag dari ketentuan.<br>";
-    echo "Anda Login Sebagai : ".$_SESSION['nama'];
+    echo "Anda Login Sebagai : ".$_SESSION['nama_petugas'];
 }

@@ -36,11 +36,11 @@
               <div class="col-lg-12">
                 <div class="p-5">
                   <div class="text-center">
-                    <h1 class="h4 text-gray-900 mb-4">Selamat Datang di Aplikasi Pengaduan Masyarakat</h1>
+                    <h1 class="h4 text-gray-900 mb-4">Selamat Datang di Aplikasi Pengaduan Masyarakat! Login Petugas / Admin</h1>
                   </div>
-                  <form class="user" method="post" action="proses-login.php">
+                  <form class="user" method="post" action="proses-login2.php">
                     <div class="form-group">
-                      <input name="nik" type="text" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Masukkan NIK" required>
+                      <input name="username" type="text" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Masukkan Username Anda" required>
                     </div>
                     <div class="form-group">
                       <input name="password" type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Masukkan Password" required>
@@ -49,11 +49,8 @@
                       Login
                     </button>
                     <hr>
-                    <a href="register.php" class="btn btn-success btn-user btn-block">
-                      <i class="fab fa-laptop fa-fw"></i> Belum Punya Akun? Silahkan Daftar
-                    </a>
-                      <a href="index2.php" class="btn btn-success btn-user btn-block">
-                      <i class="fab fa-laptop fa-fw"></i> Login Sebagai Admin / Petugas
+                    <a href="index.php" class="btn btn-success btn-user btn-block">
+                      <i class="fab fa-laptop fa-fw"></i> Kembali Ke Login Masyarakat
                     </a>
                   </form>
                 </div>
